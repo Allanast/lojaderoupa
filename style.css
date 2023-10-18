@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #B39CD0;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    
+    
+  }
+  
+    
+  
+  nav {
+    width: 100%;
+  }
+  
+  ul {
+     
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  li {
+    font-size: 2rem;
+    list-style: none;
+    color: white;
+  }
+  
+  li:hover, .active {
+    background-color:#F6C8FF;
+    border-radius: 12px;
+}
+  section {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  div {
+    width: 20vw;
+    height: 50vh;
+    border: solid #D5CABD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-family: 'Roboto Mono', monospace;
+    
+  }
+  
+  img {
+    width: 100px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    
+  }
+  
+  button {
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    border: 2px solid #F6C8FF;
+  }
+  
+  
+  button:hover {
+    background-color: #F6C8FF;
+    color: black;
+  }
+  
+  h2,
+  p,
+  button,
+  form {
+    margin-top: 0.5rem;
+  }
+  
+  footer {
+    height: 15vh;
+    background-color: #B39CD0;
+    font-family: 'Cormorant Garamond', serif;
+    border-radius: 12px;
+  }
+  
+  footer button {
+    background-color: white;
+    color: black;
+    margin-left: 2rem;
+    border-radius: 12px;
+    
+  }
+  
+  footer input {
+    width: 10vw;
+    height: 3vh;
+    border-radius: 12px;
+    
+  }
+  footer label {
+    margin-left: 1rem;
+    
+  }
+  
